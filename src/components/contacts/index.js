@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.css";
 
-const Contacts = ()=>{
-    return ();
-}
+const Contacts = () => {
+  // return ();
+};
 
 export default Contacts;

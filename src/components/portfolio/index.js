@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.css";
 
-const Portfolio = ()=>{
-    return ();
-}
+const Portfolio = () => {
+  // return ();
+};
 
 export default Portfolio;

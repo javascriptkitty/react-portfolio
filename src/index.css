@@ -13,12 +13,40 @@ code {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
   color: black !important;
   font-family: Satellite;
 }
+li {
+  list-style: none;
+}
+h1,
+h2 {
+  font-family: "Cabin Sketch", cursive;
+  letter-spacing: 2px;
+}
+h1 {
+  font-size: 2.6em;
+}
+h2 {
+  font-size: 2.4em;
+}
+h3 {
+  font-size: 2.2em;
+}
 
+.wired-rendered {
+  font-family: Satellite !important;
+  margin-top: 15px;
+  padding: 20px;
+}
 @font-face {
   font-family: Satellite;
   src: url(../src/assets/fonts/Satellite.otf);
+}
+
+#root {
+  background: url(/images/bg_6.png) top center;
+  background-repeat: repeat-y;
+  background-size: 100%;
 }

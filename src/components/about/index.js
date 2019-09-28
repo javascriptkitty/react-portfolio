@@ -1,7 +1,6 @@
 import React from "react";
 import "wired-card";
 import { Container, Row, Col } from "reactstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
 
 const About = () => {

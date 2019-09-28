@@ -17,3 +17,13 @@
 .about p {
   margin-bottom: 0 !important;
 }
+@media only screen and (max-width: 600px) {
+  .about {
+    margin-bottom: 100px !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .about {
+    margin-bottom: 380px !important;
+  }
+}

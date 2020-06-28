@@ -1,29 +1,29 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import { Button } from "reactstrap";
+import { Button } from "@material-ui/core";
 import "./style.css";
 
 const contacts = [
   {
     name: "LinkedIn",
     icon: "fa fa-fw fa-2x fa-linkedin-square valign-middle",
-    link: "https://www.linkedin.com/in/kristina-alekseeva-0285b585/"
+    link: "https://www.linkedin.com/in/kristina-alekseeva-0285b585/",
   },
   {
     name: "Facebook",
     icon: "fa fa-fw fa-2x fa-facebook-square valign-middle",
-    link: "https://www.facebook.com/cristina.camomilla"
+    link: "https://www.facebook.com/cristina.camomilla",
   },
   {
     name: "GitHub",
     icon: "fa fa-fw fa-2x fa-github-square valign-middle",
-    link: "https://github.com/javascriptkitty/"
+    link: "https://github.com/javascriptkitty/",
   },
   {
     name: "Email",
     icon: "fa fa-fw fa-2x fa-envelope-square valign-middle",
-    link: "mailto:cristina.alekseeva@gmail.com"
-  }
+    link: "mailto:cristina.alekseeva@gmail.com",
+  },
 ];
 
 const Contacts = () => {
@@ -34,17 +34,22 @@ const Contacts = () => {
         <h1>Contact me</h1>
         <h4>I am available for freelance projects and full-time employment.</h4>
 
-        <wired-card elevation="3">
-          {contacts.map(contact => {
+        <div className="linkButtons">
+          {contacts.map((contact) => {
             return (
-              <Button outline color="dark" href={contact.link} target="_blank">
+              <Button
+                variant="contained"
+                size="medium"
+                href={contact.link}
+                target="_blank"
+              >
                 {" "}
                 <i className={contact.icon}></i>
                 <strong>{contact.name}</strong>
               </Button>
             );
           })}
-        </wired-card>
+        </div>
       </Container>
     </section>
   );

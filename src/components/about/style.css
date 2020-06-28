@@ -10,6 +10,10 @@
 }
 .about .wired-rendered {
   background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+}
+.about .wired-rendered p {
+  padding-bottom: 20px;
 }
 .about h1 {
   padding-top: 60px;
@@ -26,4 +30,12 @@
   .about {
     margin-bottom: 380px !important;
   }
+}
+.about-cards {
+  display: flex;
+  width: 100%;
+}
+.about-cards .wired-rendered {
+  flex: 1;
+  margin: 0 5px;
 }

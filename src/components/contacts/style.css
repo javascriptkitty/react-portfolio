@@ -9,11 +9,10 @@
   background-size: cover;
   padding-top: 50px;
 }
-.contacts .wired-rendered {
+.contacts .wired-rendered div {
   display: flex;
   flex-direction: column;
   margin: 20px 5px;
-  padding: 20px;
 }
 .contacts .wired-rendered .btn-outline-dark {
   display: flex;
@@ -31,4 +30,13 @@
   flex-direction: column;
   padding-bottom: 50px;
   border-radius: 10px;
+}
+.linkButtons {
+  display: flex;
+  flex-direction: column;
+}
+.linkButtons .MuiButton-contained {
+  width: 160px !important;
+  padding: 10px 5px;
+  margin: 6px;
 }
